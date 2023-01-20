@@ -2,27 +2,30 @@ import React from "react";
 import styled from "styled-components";
 import logo from "../../assets/logo.png";
 import login from "../../assets/login.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div>
-      <StBox>
-        <StLogoBox>
-          <StLogo src={logo} alt="logo" />
-        </StLogoBox>
+    <StBox>
+      <StLogoBox>
+        <StLogo src={logo} />
+      </StLogoBox>
 
-        <StInputBox>
-          <StLogo src={login} alt="logo" style={{ maxWidth: "40%" }} />
-          <StInput placeholder="아이디를 입력하세요." type="text"></StInput>
-          <StInput
-            placeholder="비밀번호를 입력하세요."
-            type="password"
-            style={{ marginTop: "20px" }}
-          ></StInput>
-          <StBtn>Login</StBtn>
-        </StInputBox>
-      </StBox>
-    </div>
+      <StInputBox>
+        <StLogo src={login} style={{ maxWidth: "40%" }} />
+        <StInput placeholder="아이디를 입력하세요." type="text" />
+        <StInput
+          placeholder="비밀번호를 입력하세요."
+          type="password"
+          style={{ marginTop: "20px" }}
+        />
+        <StBtn>로그인하기</StBtn>
+        {/* <Link to="/">
+         
+        </Link> */}
+        <StText>아직 회원이 아니신가요?</StText>
+      </StInputBox>
+    </StBox>
   );
 };
 
@@ -33,13 +36,13 @@ const StBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   width: 100%;
   height: 100%;
-  /* text-align: center; */
 `;
 const StLogo = styled.img`
   max-width: 65%;
-  margin: 40px;
+  margin-top: 30px;
 `;
 
 const StLogoBox = styled.div`
@@ -50,7 +53,7 @@ const StLogoBox = styled.div`
 
 const StInputBox = styled.div`
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   border: 1px solid #fe6473;
@@ -58,6 +61,7 @@ const StInputBox = styled.div`
   height: 500px;
   background-color: white;
   border-radius: 5px;
+  margin: 20px;
 `;
 
 const StInput = styled.input`
@@ -68,11 +72,11 @@ const StInput = styled.input`
   padding: 20px;
   box-sizing: border-box;
   outline: none;
-
+  /* 
   & input:focus {
     outline: none;
-    border: 1px solid #fe6473;
-  }
+    border: 3px solid #fe6473;
+  } */
 `;
 
 const StBtn = styled.button`
@@ -87,4 +91,9 @@ const StBtn = styled.button`
     background-color: #f25a5a;
     color: white;
   }
+`;
+
+const StText = styled.span`
+  color: rgb(195, 190, 190);
+  font-size: 15px;
 `;
