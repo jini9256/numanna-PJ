@@ -11,6 +11,7 @@
 ---
 
 🗂 [프로젝트 정리 노션](https://mulberry-narcissus-e4c.notion.site/cd3ac3f50ad64d83a56381668762377a)
+
 💻 [시연 영상](https://youtu.be/DH_jKWGj1UQ)
 
 ---
@@ -20,7 +21,9 @@
 | 유영재 | 김유안 | 김혜진 | 성민준 | 조영준 |
 | ------ | ------ | ------ | ------ | ------ |
 
-### 기능
+---
+
+## 개발 기능
 
 -   회원가입, 로그인
 
@@ -38,7 +41,9 @@
 
     -   집계한 점수를 토대로 비교 매칭후 채팅
 
-### 개발 언어 및 프레임 워크
+---
+
+## 개발 언어 및 프레임 워크
 
 <div align="left">
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
@@ -49,7 +54,9 @@
 	<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white" />
 </div>
 
-### 프로젝트 UI
+---
+
+## 프로젝트 UI
 
 ![](https://velog.velcdn.com/images/jini9256/post/5c9c4942-3e21-492c-a5d6-e08ea03ad7f6/image.png)
 ![](https://velog.velcdn.com/images/jini9256/post/8b4d8f8a-a96e-4c9f-848f-10a1f3f982f2/image.gif)
